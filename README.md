@@ -60,7 +60,7 @@ def fib(n):
 # Explain the function
 ```
 
-## Local examples (requires [Recipe1M](http://pic2recipe.csail.mit.edu) account):
+## Python implementation:
 ```sh
 python -m venv venv
 source venv/bin/activate
@@ -70,7 +70,7 @@ pip install -r requirements.txt
 # Export OpenAI credentials
 export OPENAI_API_KEY=<your-api-key>
 
-python ./src/ParseIngredientsBase.py -i "butter (room temp)"
+python ./src/ParseIngredientsBase.py -i "Roughly 1 cup of butter (room temp)"
 # Butter
 ```
 
