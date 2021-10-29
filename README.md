@@ -45,7 +45,7 @@ Raw zucchini
 1c walnuts (optional)
 Walnuts
 
-1 cup of butter (softened)
+1 cup of butter (room temp)
 ```
 
 ### [Function explainer (OpenAI Codex - requires additional Codex access)](https://beta.openai.com/playground/p/7AaExsHVqjQ2TgS6NHvHoSWs?model=davinci-codex)

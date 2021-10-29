@@ -131,3 +131,4 @@ dmypy.json
 # GCK
 tmp
 data
+.DS_Store
