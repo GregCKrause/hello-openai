@@ -5,10 +5,11 @@ To use OpenAI, you will need to create an OpenAI account. OpenAI currently maint
 Once access is granted, it is recommended to check out the [playground](https://beta.openai.com/playground).
 
 ## Playground examples:
-### [Tweet sentiment (general OpenAI)](https://beta.openai.com/playground/p/default-tweet-classifier)
+### [What is OpenAI?](https://beta.openai.com/playground/p/77kIgLnDaFg5IydIYp5f2Lvv?model=davinci)
+
+### [Tweet sentiment](https://beta.openai.com/playground/p/default-tweet-classifier)
 ```txt
 This is a tweet sentiment classifier
-
 
 Tweet: "I loved the new Batman movie!"
 Sentiment: Positive
@@ -59,7 +60,7 @@ def fib(n):
 # Explain the function
 ```
 
-## Local examples:
+## Local examples (requires [Recipe1M](http://pic2recipe.csail.mit.edu) account):
 ```sh
 python -m venv venv
 source venv/bin/activate
@@ -69,11 +70,11 @@ pip install -r requirements.txt
 # Export OpenAI credentials
 export OPENAI_API_KEY=<your-api-key>
 
-python ./src/ParseIngredients.py -i "butter (room temp)"
+python ./src/ParseIngredientsBase.py -i "butter (room temp)"
 # Butter
 ```
 
 ## Attribution
 Special thanks to the following projects:
-- [OpenAI](https://openai.com).
+- [OpenAI](https://openai.com)
 - [Recipe1M](http://pic2recipe.csail.mit.edu)

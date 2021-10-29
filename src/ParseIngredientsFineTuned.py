@@ -3,7 +3,6 @@ import argparse
 import os
 
 # Third party
-import pandas as pd
 import openai
 
 # Consts
